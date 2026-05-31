@@ -685,5 +685,5 @@ CMD ["node", "server.js"]
 
 ---
 
-© 2026 Quantova Inc · Licensed under BUSL-1.1 · Quantova™ and QTOV™ are
+\© 2026 Quantova Inc · Licensed under BUSL-1.1 · Quantova™ and QTOV™ are
 trademarks of Quantova Inc.
