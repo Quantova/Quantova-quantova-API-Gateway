@@ -174,10 +174,10 @@ indexer to keep in sync — the data is exactly what the node reports.
 > REST surface.
 
 ---
-
+## Encoding
 ## Conventions
 
-### Encoding
+
 
 | Type        | Encoding                                                                | Example                                      |
 |-------------|-------------------------------------------------------------------------|----------------------------------------------|
