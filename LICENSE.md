@@ -1,4 +1,4 @@
-# Quantova Licensing Overview
+## Quantova Licensing Overview
 
 This repository contains software, specifications, and documentation developed and maintained by **Quantova Inc**.
 
@@ -8,9 +8,9 @@ This file serves as the authoritative licensing index for the Quantova technolog
 
 ## Copyright and Ownership
 
-© 2026 Quantova Inc
-
 All rights reserved.
+
+© 2026 Quantova Inc
 
 Quantova Inc is a company registered in Singapore and is the legal owner and steward of:
 
