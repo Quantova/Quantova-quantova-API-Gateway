@@ -373,6 +373,8 @@ Query: `blockCount` (default `5`), `newestBlock` (number/hash, default latest),
 { "oldestBlock": "0x1554ec2", "reward": [["0x64","0xc8","0x12c"]], "baseFeePerGas": ["0x3e8"], "gasUsedRatio": [0.5] }
 ```
 
+## USA Quantova inc 
+
 #### `GET /v1/fees/estimate`
 Suggested base fee + priority fee, with slow/standard/fast tiers (from
 `q_feeHistory`). Fee model is EIP-1559 with no burn (base → treasury, tip →
