@@ -6,6 +6,14 @@ The **public REST API** for the Quantova network: a RESTful HTTP interface that
 exchanges, indexers, wallets, and dApps use to read on-chain state, submit signed
 transactions, estimate fees, and bridge assets.
 
+> **Bridge — current position.** The bridge this gateway fronts now spans **36 chains and 67 assets**
+> via `pallet-universal-bridge` (superseding the earlier BSC/ETH/Tron `pallet-bridge`), with trustless
+> on-chain verification per family — **Bitcoin/BCH SPV**, **EVM sync-committee/Parlia light clients +
+> EIP-1186**, **Cosmos Tendermint + ICS-23**, **Substrate GRANDPA** — a **≥⅔ federated** tier for the
+> remaining chains, and an **over-collateralized BTC vault**. Wrapped assets are **burned on redeem**
+> (proof-of-reserves). The `/v1/bridge/*` endpoints (quote, status) are read-only views over this.
+> Full chain/asset/proof matrix and honest trust boundaries: **[BRIDGE-SPEC.md](BRIDGE-SPEC.md)**.
+
 It is a single, **zero-dependency** Node.js service ([`server.js`](server.js))
 that acts as an **edge gateway** in front of a running Quantova node and proxies
 the node's JSON-RPC. Every response is real, live on-chain data:
