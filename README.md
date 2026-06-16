@@ -6,7 +6,7 @@ The **public REST API** for the Quantova network: a RESTful HTTP interface that
 exchanges, indexers, wallets, and dApps use to read on-chain state, submit signed
 transactions, estimate fees, and bridge assets.
 
-> **Bridge — current position.** The bridge this gateway fronts now spans **36 chains and 67 assets**
+> **Bridge — current position.** The bridge this gateway fronts now spans **36 chains and 68 assets**
 > via `pallet-universal-bridge` (superseding the earlier BSC/ETH/Tron `pallet-bridge`), with trustless
 > on-chain verification per family — **Bitcoin/BCH SPV**, **EVM sync-committee/Parlia light clients +
 > EIP-1186**, **Cosmos Tendermint + ICS-23**, **Substrate GRANDPA** — a **≥⅔ federated** tier for the

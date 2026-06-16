@@ -6,7 +6,7 @@ post-quantum L1 and the **hub**: every transfer has Quantova on one side. Foreig
 assets). On-chain logic is `pallet-universal-bridge` + per-family verifier pallets in the Quantova
 runtime; this supersedes the earlier single `pallet-bridge` (BSC/ETH/Tron only).
 
-- **Networks:** 36 foreign chains. **Assets:** 67.
+- **Networks:** 36 foreign chains. **Assets:** 68.
 - **Issuance:** 1:1 wrapped q-assets; only **BTC→WBTC** and **ETH→WETH** carry the `W` prefix — every
   other asset keeps its own ticker (USDT stays USDT).
 - **Tiers ratchet up only:** Federated → SPV → LightClient → Native. Never silently downgraded.
@@ -66,7 +66,7 @@ implementations from the Quantova **hyperbridge** fork.
 
 ---
 
-## Supported assets (67)
+## Supported assets (68)
 
 Only BTC→WBTC and ETH→WETH are wrapped with the `W` prefix; all others keep their ticker.
 
@@ -74,7 +74,7 @@ Only BTC→WBTC and ETH→WETH are wrapped with the `W` prefix; all others keep 
 APT, SUI, ALGO, VET, HYPE · **Stablecoins:** USDT, USDC, DAI, USDe, FDUSD, TUSD, PYUSD, EURC ·
 **DeFi:** UNI, AAVE, ONDO, ENA, PENDLE, EIGEN, ETHFI, AERO, INJ, POL · **Liquid staking:** wstETH,
 weETH, rETH · **AI:** TAO, FET, RENDER, WLD, VIRTUAL, AIXBT, AI16Z · **L2:** ARB, OP, POL ·
-**Cosmos:** ATOM, TIA, INJ, SEI · **RWA:** PAXG, XAUT · **Privacy:** XMR, ZEC ·
+**L2:** ARB, OP, POL, MNT · **Cosmos:** ATOM, TIA, INJ, SEI · **RWA:** PAXG, XAUT · **Privacy:** XMR, ZEC ·
 **Memes:** SHIB, PEPE, BONK, WIF, PENGU, MOG, POPCAT, BRETT.
 
 ---
